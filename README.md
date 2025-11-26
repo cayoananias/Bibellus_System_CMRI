@@ -3,9 +3,9 @@
 
 ---
 
-# 📘 Português (PT-BR)
+#  Português (PT-BR)
 
-## 📝 Descrição
+##  Descrição
 
 **Bibellus_System_CMRI** é um sistema simples e funcional de **controle de vendas**, desenvolvido em **C#**, com foco em organização, rapidez e fácil manutenção.
 
