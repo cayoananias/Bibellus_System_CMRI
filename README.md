@@ -49,6 +49,16 @@ Ideal para estudos, trabalhos acadêmicos, pequenos negócios ou como base para 
    
    git clone https://github.com/cayoananias/Bibellus_System_CMRI.git
 
+2.  Abra o arquivo bibellus_1.0.slnx no Visual Studio
+
+Aguarde o carregamento do projeto
+
+3. Restaure dependências, se necessário
+
+4. Pressione F5 para rodar o sistema
+
+⚠️ Importante: o arquivo banco.txt deve permanecer no diretório raiz do projeto.
+
 
 Prints do sistema 
 
