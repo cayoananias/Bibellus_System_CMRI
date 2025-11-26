@@ -52,7 +52,8 @@ Ideal para estudos, trabalhos acadêmicos, pequenos negócios ou como base para 
 
 Prints do sistema 
 
+<img width="800" height="453" alt="Captura de tela 2025-11-26 165958" src="https://github.com/user-attachments/assets/3cc05bde-c5ed-4061-abef-c0fa42e9ebbe" />
 
 
 
-
+<img width="800" height="452" alt="Captura de tela 2025-11-26 170028" src="https://github.com/user-attachments/assets/8ee763dd-98d7-4087-bedd-990eee799888" />
