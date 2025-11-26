@@ -16,5 +16,10 @@ namespace Bibellus_form_1._0
         {
             InitializeComponent();
         }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
