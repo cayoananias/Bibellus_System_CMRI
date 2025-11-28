@@ -19,17 +19,19 @@ namespace Bibellus_BD_Csharp
 
         public string[] MYSQLSelect(string tabela, string condicao = null, string colunas = null)
         {
-            MySqlDataReader reader = new MySqlCommand($"SELECT {(colunas == null ? "*" : $"{colunas}")} FROM {tabela}{(condicao == null ? "" : $"WHERE {condicao}")};", Connection).ExecuteReader();
-            string[] retorno = new string[1];
+            MySqlDataReader reader = new MySqlCommand($"SELECT {(colunas == null ? "*" : $"{colunas}")} FROM {tabela}{(condicao == null ? "" : $" WHERE {condicao}")};", Connection).ExecuteReader();
+            string[] retorno = new string[0];
 
-            for (int contador=0; reader.Read(); contador++) {
+            for (int contador=0; reader.Read(); contador++)
+            {
+                Array.Resize(ref retorno, retorno.Length + 1);
                 for (int coluna = 0; coluna < reader.FieldCount; coluna++)
                 {
-                    retorno[contador] = reader[coluna].ToString()+",";
+                    retorno[contador] = retorno[contador]+reader[coluna].ToString()+",";
                 }
-                Array.Resize(ref retorno, retorno.Length+1);
             }
 
+            reader.Close();
             return retorno;
         }
 

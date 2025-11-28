@@ -31,7 +31,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.User_id = new System.Windows.Forms.TextBox();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.label2 = new System.Windows.Forms.Label();
             this.User_pwd = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
@@ -54,6 +53,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "Entrar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.LoginButton);
             // 
             // User_id
             // 
@@ -61,14 +61,6 @@
             this.User_id.Name = "User_id";
             this.User_id.Size = new System.Drawing.Size(129, 20);
             this.User_id.TabIndex = 2;
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
-            this.menuStrip1.TabIndex = 3;
-            this.menuStrip1.Text = "menuStrip1";
             // 
             // label2
             // 
@@ -98,8 +90,6 @@
             this.Controls.Add(this.User_id);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Login";
             this.Text = "Login";
             this.Shown += new System.EventHandler(this.Login_shown);
@@ -113,7 +103,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox User_id;
-        private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox User_pwd;
     }
