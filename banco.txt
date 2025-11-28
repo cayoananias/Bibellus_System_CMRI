@@ -38,11 +38,10 @@ create table despesas (
 
 create table vendas (
     id int not null auto_increment primary key,
-    data date,
     pagamento varchar(100),
     valor decimal(10,2),
     observacao varchar(200),
-    hora time
+    hora datetime default current_timestamp
 );
 
 create table unidade (
@@ -114,7 +113,7 @@ insert into tipo (descricao) values
 ('sorvete');
 
 insert into produto (id_tipo_fk, descricao) values
-/sorvetes/
+/*sorvetes*/
 (3,'abacaxi ao vinho'),
 (3,'charge'),
 (3,'chiclete'),
@@ -130,7 +129,7 @@ insert into produto (id_tipo_fk, descricao) values
 (3,'pistache'),
 (3,'prestígio'),
 (3,'floresta negra'),
-/acompanhamentos/
+/*acompanhamentos*/
 (1,'caldas'),
 (1,'cereais'),
 (1,'confete'),
@@ -140,7 +139,7 @@ insert into produto (id_tipo_fk, descricao) values
 (1,'leite em pó'),
 (1,'canudinho'),
 (1,'casquinha'),
-/descartáveis/
+/*descartáveis*/
 (2,'copo 180ml'),
 (2,'copo 286ml'),
 (2,'copo 480ml'),
