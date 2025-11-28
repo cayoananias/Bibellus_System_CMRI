@@ -1,4 +1,5 @@
-<Solution>
+<Solution>  
+  <Project Path="Bibellus-BD-Csharp/Bibellus-BD-Csharp.csproj" Id="959decb9-3795-4d61-a9f1-f14950d48db5" />
   <Project Path="Bibellus-form-1.0/Bibellus-form-1.0.csproj" Id="08a474c8-007d-4f56-a16a-cc8e2c4f257b" />
   <Project Path="bibellus_1.0/bibellus_1.0.csproj" Id="de86db90-835c-4415-8756-f4138fee6496" />
 </Solution>
